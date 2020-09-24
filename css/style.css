@@ -12,3 +12,10 @@ body {
   border: solid 10px black;
   border
 }
+
+.inner-square {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: solid 10px black; 
+}
