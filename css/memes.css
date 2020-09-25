@@ -5,29 +5,6 @@ body {
   background-color: cornsilk;
 }
 
-.outer-square {
-  width: 360px;
-  height: 360px;
-  background-color: cadetblue;
-}
-
-.inner-square {
-  width: 200px;
-  height: 200px;
-  background-color: white;
-}
-
-.inner-inner-square {
-  width: 120px;
-  height: 120px;
-}
-
-.greta-background {
-  background-size: cover;
-  background-image: url(/images/giphy.gif);
-  background-position: center;
-}
-
 .thick-border-1 {
   border: solid 10px black;
 }
@@ -36,14 +13,11 @@ body {
   border-style: solid;
   border-width: 10px;
   border-color: black;
-  border-radius: 40px;
 }
 
 .color-primary {
   background-color: cornflowerblue;
 }
-
-/* Version1 for centering: using flexbox the centering is applied to the direct child */
 
 .center-v1 {
   display: flex;
@@ -51,11 +25,10 @@ body {
   align-items: center;
 }
 
-/**
 .main-container {
-  width: 800px;
+  width: 900px;
   height: 300px;
-  background-color: white;
+  background-color: khaki;
   border-radius: 40px;
 
   display: flex;
@@ -64,19 +37,31 @@ body {
 }
 
 .meme-container {
-  width: 230px;
-  height: 230px;
+  width: 180px;
+  height: 180px;
 }
 
 #meme-square-1 {
+  border-radius: 10%;
+  background: url(/images/gif);
 }
 
 #meme-square-2 {
   background-image: url(/images/giphy.gif);
-  background-size: cover;
-  background-position: center;
+  border-radius: 20%;
 }
 
 #meme-square-3 {
+  border-radius: 30%;
+  background: url(/images/gif.webp);
 }
-**/
+
+#meme-square-4 {
+  border-radius: 40%;
+  background: url(/images/giphy.webp);
+}
+
+.image-background {
+  background-size: cover;
+  background-position: center;
+}
